@@ -105,6 +105,8 @@
 			self.firstname = firstname || '';
 			self.lastname = lastname || '';
 			self.language = language || 'een';
+
+			self.validate();
 	}
 
 	Greetr.init.prototype = Greetr.prototype;
